@@ -1,0 +1,168 @@
+ls
+ls -l
+ls -la
+man ls
+man man
+pwd
+whoami
+echo hola
+echo home
+echo HOME
+echo SHOME
+ls
+cat README
+cd repogit/
+git clone https://github.com/stellavillalva/repo_villalva.git
+ls
+cd repo_villalva/
+ls
+history
+history > historial.txt
+ls
+cat historial.txt 
+git status
+git add .
+git status
+git commit -m "mi primer commit"
+git push
+git status
+exit
+pwd
+echo $HOME
+ls
+ls -la
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls
+ls -l
+cat id_ed25519
+cd .ssh
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit/
+ls -l
+git clone git@github.com:stellavillalva/repo_villalva.git
+ls 
+cd repo_villalva/
+ls -l
+echo hola
+echo "hola" > hola.txt
+ls -l
+cat hola.txt
+git status
+git add.
+git status
+git add .
+git status
+git commit -m "agrego: hola"
+git commit
+git push
+git status
+cat /etc/passws
+cat /etc/passwd
+tale /etc/passwd
+tail /etc/passwd
+tail -n3 /etc/passwd
+head /etc/passwd
+cat /etc/passwd | grep vagrant
+cat /etc/passwd | grep -n bash
+cat /etc/passwd | grep -n no login
+cat /etc/passwd | grep -n nologin
+cat /etc/passwd | grep -nv nologin
+cat /etc/passwd | grep -v nologin > archivo1.txt
+ls -l
+cat archivo1.txt 
+cat /etc/passwd | grep -nv nologin | head -n3
+cat /etc/shadow
+sudo cat /etc/shadow 
+lspci
+lscpu
+lscpu | grep model
+lscpu | grep -i model
+lscpu | grep -i MODEL | head -n1
+lscpu | grep -i MODEL | head -n1 > info_procesador.txt
+ls
+cat info_procesador.txt 
+ls -l
+cat archivo1.txt 
+sort archivo1.txt 
+hystori
+history
+lscpu | grep -i model
+cat << FIN > bloque_cat.txt
+linea 1
+linea 2
+linea 3
+FIN
+
+cat bloque_cat.txt 
+bc <<< 1+2
+bc <<< 2*2
+bc <<< 300/2
+ls -l
+cat hola.txt 
+echo "chau"
+echo "chau" >> hola.txt 
+cat hola.txt 
+echo "chau" > chau.txt
+echo "hola" > hola.txt
+cat hola.txt chau.txt  > saludo.txt
+cat saludo
+cat saludo.txt 
+ls -l
+git status
+git add .
+git add 
+git status
+git commit
+git push
+exit
+ssh-keygen
+ls
+cd carpeta_compartida/
+-ls
+ls -a
+cat $HOME
+cd ..
+ls
+cd $HOME
+ls
+ls -a
+cd .ssh
+ls
+cat $HOME/.ssh/*.pub
+cd
+ls
+mkdir repogit
+git clone git@github.com:stellavillalva/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat/etc/os-release
+cat /etc/os-release
+man grep
+grep 
+grep input
+-ls
+cat /etc/os-release
+ls
+ls -l
+repogit ls
+cd..
+cd ..
+ls
+cd repogit/
+ls
+git clone git@github.com:stellavillalva/TP_AySO.git
+ls
+cd TP_AySO/
+whoami
+echo "usuario=$(whoami)" > datos_usuario.txt
+git add .
+git status
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+cd ..
+vagrant halt
+exit
